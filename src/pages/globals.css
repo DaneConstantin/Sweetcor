@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply dark:bg-[#052825] bg-white
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --dark-bg: #0D000000;
+    --main-color: #232536;
+    --button-bg: #FFD050;
+    --button-hover: #EDC14A;
+}
